@@ -1,0 +1,17 @@
+Bolivia4778530-LP
+
+
+Copiar el archivo .env.example a .env e ingresar los datos para la conexion a la BD
+Ejecuta en una terminal en el folder del proyecto composer install
+Ejecuta en una terminal en el folder del proyecto php artisan key:generate
+Ejecuta en una terminal en el folder del proyecto php artisan migrate
+Ejecuta en una terminal en el folder del proyecto npm install
+Ejecuta en una terminal en el folder del proyecto npm run build
+Ejecuta en una termina en el folder del proyecto php artisan serve
+Puede registrarse como un usuario regular o loguearse como admin con admin@admin.com - password
+
+
+php artisan reporte:reporte-semanal
+
+
+Anemari FIser

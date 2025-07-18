@@ -1,0 +1,18 @@
+es necesario que des unos estudios acerca de los cron Jobs y el kernel de laravel de sus usos en servidores porque para el despliegue de los estados de los tickets semanales se hará de manera automáticamente por lo cual te sugiero que des una repasada a los siguientes documentaciones de las cuales son las siguientes:
+en el caso de commands:
+SupportTickets\app\Console\Commands\EnviaCorreoSemanal.php
+en el caso de kernel:
+SupportTickets\app\Console\Kernel.php
+
+es muy necesario que des una repasada simple ya que este comando solo funcionara cuando programes dentro de un servidor el cron Jobs donde te proveen los que te ofrecen el servicio de almacenamiento de la web hosting pero para darte detalle el código seria de la siguiente manera:
+* * * * * php /SupportTickets/app/Console/artisan schedule:run >> /dev/null 2>&1
+(NOTA. como te dije esto solo debe de usuarse en los servers ya que en desarrollo no servirá la programación)
+pero si quieres demostrar que funciona el generador de documento y que además envía en correo debes de hacer funcionar en modo de consola dentro del proyecto la siguiente linea de código
+php artisan reporte:reporte-semanal
+
+si te das de cuenta así será su función cuando este dentro del servidor pero será de manera manual
+_______________________________________________________________________________________________________________________
+Recuerda que ahora debes de reemplazar todo tu proyecto excepto .env, ya que esa tiene los datos de tu aplicativo, dale resplado e ella.
+también te estoy mandando la base de datos, ahí debes de eliminar los datos que no sirven ya que son datos de prueba como ser mi correo y algunos usuarios nuevos, pero siempre es necesario que realices algunos respaldos
+
+ante cualquier duda, consulta u observación por el chat de Whatsapp
