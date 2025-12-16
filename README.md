@@ -1,4 +1,4 @@
-# Support Tickets Sergio
+# Support Tickets 
 
 ## How to use
 -Clonar este repositiorio con __git clone__
