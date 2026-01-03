@@ -13,6 +13,5 @@ php artisan reporte:reporte-semanal
 si te das de cuenta así será su función cuando este dentro del servidor pero será de manera manual
 _______________________________________________________________________________________________________________________
 Recuerda que ahora debes de reemplazar todo tu proyecto excepto .env, ya que esa tiene los datos de tu aplicativo, dale resplado e ella.
-también te estoy mandando la base de datos, ahí debes de eliminar los datos que no sirven ya que son datos de prueba como ser mi correo y algunos usuarios nuevos, pero siempre es necesario que realices algunos respaldos
+también te estoy mandando la base de datos, ahí debes de eliminar los datos que no sirven ya que son datos de prueba como ser mi correo y algunos usuarios nuevos, pero siempre es necesario que realices algunos respaldos.
 
-ante cualquier duda, consulta u observación por el chat de Whatsapp
